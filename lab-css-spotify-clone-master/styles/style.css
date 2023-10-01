@@ -1,0 +1,152 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation {
+    float: right;
+}
+
+.nav-link {
+    text-decoration: underline;
+    color:blue;
+    cursor: pointer;
+}
+
+.nav-link:link {
+    color: blue;
+}
+
+.nav-link:visited {
+    color: red;
+}
+
+.nav-link:hover {
+    color:orange;
+}
+
+.nav-link:active {
+    color:palegreen;
+}
+
+.image {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+}   
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.music {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.spotify {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 100%;
+    padding-top: 4%;
+}
+
+.spotify-panel {
+    text-decoration-color: green;
+}
+
+.spotify-attributes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width:1000;
+    height: 400px;
+}
+
+.music-icon {
+
+    width: 200px;
+    float: none;
+}
+
+.high-quality-icon {
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.devices-icon {
+    align-content: center;
+    justify-content: flex-end;
+    width: 200px;
+}
+
+.icon-0 {
+    display: flex;
+}
+
+.spotify-attributes h2 {
+    width: 100%;
+}
+
+.icon-2 {
+    float: right;
+}
+
+.activities {
+    background-color: #00B172;
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    justify-content:space-around;
+    display: block;
+    padding-left: 40px;
+    height: 500px;
+}
+
+.spotify-panel-1 {
+    text-decoration-color: white;
+   
+}
+
+.west {
+    float: right;
+    position:relative;
+    width: fit-content;
+    width: 250px;
+    height: 400px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 200px;
+}
+
+.spotify-icon-white {
+    align-content: center;
+    justify-content: center;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-left: 50%;
+    position: absolute;
+}
